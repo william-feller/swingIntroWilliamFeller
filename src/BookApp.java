@@ -26,6 +26,7 @@ public class BookApp {
         mainFrame.setSize(800,300);
         mainFrame.setTitle("Book Review for: " + bookName);
         mainFrame.getContentPane().setBackground(new Color(95, 200, 20));
+        mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // create and add a label
         JLabel labInstruction = new JLabel("hello, tell us if you like the book '" + bookName + "'");
